@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+div{
+    height: 300px;
+}
+.box1{
+    background-color: blue;
+}
+.box2{
+    background-color: yellow;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1199px){
+    .box1{
+        width: 100%;
+        font-size: 16px;
+        background-color: white;
+    }
+    .box2{
+        width: 100%;
+        font-size: 16px;
+        background-color: white;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .box1{
+        width: 49%;
+        font-size: 20px;
+        background-color: white;
+        position: absolute;
+    }
+    .box2{
+        width: 49%;
+        font-size:20px;
+        background-color: white;
+        float: right;
+        
+    }
+}
